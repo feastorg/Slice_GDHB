@@ -3,7 +3,7 @@
   <a href="https://github.com/uwo-fast">
     <img src="https://github.com/uwo-fast/.github/blob/main/branding/FAST%20Logo%20Orange%20on%20White%20Transparent.png" height="100">
   </a>
-  <h2><a href="https://github.com/uwo-fast/Slice_TEMP"> BREAD Repository Template </a></h2>
+  <h2><a href="https://github.com/uwo-fast/Slice_TEMP"> Slice_GDHB </a></h2>
   <!-- Labels: -->
   <!-- First row: -->
   <a href="https://github.com/uwo-fast/.github/blob/main/collaborating.md">
@@ -43,7 +43,7 @@
     <img src="https://img.shields.io/github/stars/uwo-fast/Slice_TEMP?style=social" alt="Stars">
   </a>
   <!-- Short description: -->
-  <h3>This is a template repository for creating BREAD modules.</h3>
+  <h3>The Gate-driven Discrete H-Bridge Slice part of BREAD.</h3>
 </div>
 
 
