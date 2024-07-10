@@ -2468,9 +2468,9 @@
 		)
 		(uuid "ffa442c7-cbef-461f-8613-c211201cec06")
 	)
-	(text "Let Cboot = Qgate / Vboot\n\nVboot = appx 16V\nQgate for these \nfets is 15nC\n\nso Cboot = 15nC / 16V \n= appx 1nF\n\nUsing 10nF since I won't \ndrive these quickly"
+	(text "Let Cboot = Qgate / Vboot\n\nVboot = appx 16V\nQgate for these \nfets is 15nC\n\nso Cboot = 15nC / 16V \n= appx 1nF\n\nCould go to 10nF if\nnot driving quickly"
 		(exclude_from_sim no)
-		(at 44.45 160.02 0)
+		(at 33.528 151.638 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3985,7 +3985,7 @@
 		(fields_autoplaced yes)
 		(uuid "06b1fccc-9b6e-4b05-90da-a2d4e3882447")
 		(property "Reference" "C10"
-			(at 127 106.68 0)
+			(at 127 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,8 +3993,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 127 109.22 0)
+		(property "Value" "1n"
+			(at 127 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,7 +4492,7 @@
 		(fields_autoplaced yes)
 		(uuid "e913b688-030f-481f-b9d1-4160cef44be9")
 		(property "Reference" "C9"
-			(at 127 91.44 0)
+			(at 127 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,8 +4500,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 127 93.98 0)
+		(property "Value" "1n"
+			(at 127 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)

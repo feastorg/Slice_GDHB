@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 2.3,
-          "width": 2.3
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.5
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -113,6 +113,7 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
+        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rule_severitieslegacy_courtyards_overlap": true,
@@ -121,7 +122,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.025,
         "min_hole_clearance": 0.25,
@@ -187,8 +188,7 @@
         0.5,
         1.0,
         1.5,
-        3.0,
-        10.0
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -220,14 +220,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.0
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.5
         },
         {
           "diameter": 1.5,
@@ -429,6 +421,7 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
       "conflicting_netclasses": "error",
@@ -484,26 +477,26 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.5,
+        "via_diameter": 1.0,
+        "via_drill": 0.7,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 1.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
-        "line_style": 1,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "HV Relay",
+        "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 3.0,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 1.0,
+        "via_diameter": 1.0,
+        "via_drill": 0.7,
         "wire_width": 6
       }
     ],
@@ -514,60 +507,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "",
-        "pattern": ""
+        "netclass": "Power",
+        "pattern": "+12V"
       },
       {
-        "netclass": "HV Relay",
-        "pattern": "NC2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "NO2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "ESTOP2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "HV Line"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "ESTOPA2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "IN2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "ESTOPB2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "FUSE2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "NC1"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "NO1"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "IN1"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "ESTOP1"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "FUSE1"
+        "netclass": "Power",
+        "pattern": "+5V"
       }
     ]
   },
@@ -579,7 +524,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "BREAD_Slice.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -663,7 +608,7 @@
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
+      "pin_symbol_size": 0.0,
       "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
@@ -695,16 +640,12 @@
   },
   "sheets": [
     [
-      "66043bca-a260-4915-9fce-8a51d324c687",
+      "0217dfc4-fc13-4699-99ad-d9948522648e",
       "Root"
     ],
     [
-      "b449e57b-cee4-4e5a-a4f4-e8a752c8e353",
+      "6ce7e972-f0e6-43d9-87d0-f66f7146934d",
       "A4947 H-Bridge"
-    ],
-    [
-      "28339b8a-c4b6-419d-b91f-ec88b4dbd0b9",
-      "A4947 H-Bridge1"
     ]
   ],
   "text_variables": {}
