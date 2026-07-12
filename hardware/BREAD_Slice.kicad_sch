@@ -2065,7 +2065,7 @@
 					)
 				)
 			)
-			(symbol "AP63205_0_1"
+			(symbol "AP63205WU-7_Buck_Regulator_0_1"
 				(rectangle
 					(start -5.08 6.35)
 					(end 5.08 -13.97)
@@ -2078,7 +2078,7 @@
 					)
 				)
 			)
-			(symbol "AP63205_1_1"
+			(symbol "AP63205WU-7_Buck_Regulator_1_1"
 				(pin input line
 					(at 7.62 -6.35 180)
 					(length 2.54)
@@ -2569,7 +2569,7 @@
 					)
 				)
 			)
-			(symbol "WAGO_2606-1104_010-000_1_1"
+			(symbol "2606-1104_010-000_Wago_1_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -10.16)
@@ -2835,7 +2835,7 @@
 					)
 				)
 			)
-			(symbol "WAGO_2606-1104_010-000_1_2"
+			(symbol "2606-1104_010-000_Wago_1_2"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -10.16)

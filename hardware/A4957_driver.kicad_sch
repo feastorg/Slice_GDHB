@@ -725,7 +725,7 @@
 					)
 				)
 			)
-			(symbol "A4957SESTR-T_0_1"
+			(symbol "A4957SESTR-T_Gate_Driver_0_1"
 				(polyline
 					(pts
 						(xy 7.0993 -17.78) (xy 6.0579 -17.2593)
@@ -1375,7 +1375,7 @@
 					)
 				)
 			)
-			(symbol "A4957SESTR-T_1_1"
+			(symbol "A4957SESTR-T_Gate_Driver_1_1"
 				(pin unspecified line
 					(at 66.04 -7.62 180)
 					(length 7.62)
