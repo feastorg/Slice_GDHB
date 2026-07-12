@@ -629,7 +629,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "kml-custom:A4957SESTR-T"
+		(symbol "KMLib_IC_Power:A4957SESTR-T_Gate_Driver"
 			(pin_names
 				(offset 0.254)
 			)
@@ -4658,7 +4658,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kml-custom:A4957SESTR-T")
+		(lib_id "KMLib_IC_Power:A4957SESTR-T_Gate_Driver")
 		(at 238.76 85.09 0)
 		(mirror y)
 		(unit 1)
@@ -4689,7 +4689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kml-custom:QFN-24_ALM"
+		(property "Footprint" "KMLib_IC_SMD:QFN-24_ALM"
 			(at 238.76 85.09 0)
 			(hide yes)
 			(show_name no)

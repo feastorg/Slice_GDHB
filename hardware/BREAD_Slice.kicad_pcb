@@ -4944,7 +4944,7 @@
 			)
 		)
 	)
-	(footprint "SparkFun-LED:WS2812-5050-4PIN"
+	(footprint "KMLib_IC_SMD:WS2812-5050-4PIN"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "4ec4e171-1549-4997-8479-26c2f6f0dd92")
@@ -6354,7 +6354,7 @@
 			)
 		)
 	)
-	(footprint "kml-custom:Thermal Pad"
+	(footprint "KMLib_Mounting:Thermal_Pad"
 		(layer "F.Cu")
 		(uuid "91f7aa6c-6edf-407e-9412-7655c2cabadb")
 		(at 126.68 126.52)
@@ -9079,7 +9079,7 @@
 			)
 		)
 	)
-	(footprint "kml-custom:QFN-24_ALM"
+	(footprint "KMLib_IC_SMD:QFN-24_ALM"
 		(layer "F.Cu")
 		(uuid "f2713852-47bb-4018-927a-7b6a9b3f7900")
 		(at 136.325 74.1 -90)
