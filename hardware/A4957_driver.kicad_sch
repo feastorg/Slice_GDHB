@@ -160,7 +160,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:CP"
+		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
 			)
@@ -238,7 +238,7 @@
 					)
 				)
 			)
-			(symbol "CP_0_1"
+			(symbol "C_Polarized_0_1"
 				(rectangle
 					(start -2.286 0.508)
 					(end 2.286 1.016)
@@ -286,7 +286,7 @@
 					)
 				)
 			)
-			(symbol "CP_1_1"
+			(symbol "C_Polarized_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -3846,7 +3846,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:CP")
+		(lib_id "Device:C_Polarized")
 		(at 60.96 68.58 270)
 		(unit 1)
 		(body_style 1)
@@ -3927,7 +3927,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:CP")
+		(lib_id "Device:C_Polarized")
 		(at 62.23 111.76 270)
 		(unit 1)
 		(body_style 1)
