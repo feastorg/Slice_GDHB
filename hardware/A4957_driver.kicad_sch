@@ -1397,7 +1397,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "william_fets:PSMN1R0-30YLC,115"
+		(symbol "Transistor_FET:PSMN5R2-60YL"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1473,7 +1473,7 @@
 					)
 				)
 			)
-			(symbol "PSMN1R0-30YLC,115_0_1"
+			(symbol "PSMN5R2-60YL_0_1"
 				(polyline
 					(pts
 						(xy 0.0508 0) (xy 0.254 0)
@@ -1688,7 +1688,7 @@
 					)
 				)
 			)
-			(symbol "PSMN1R0-30YLC,115_1_1"
+			(symbol "PSMN5R2-60YL_1_1"
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
@@ -4008,7 +4008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "william_fets:PSMN1R0-30YLC,115")
+		(lib_id "Transistor_FET:PSMN5R2-60YL")
 		(at 74.93 80.01 0)
 		(mirror y)
 		(unit 1)
@@ -4110,7 +4110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "william_fets:PSMN1R0-30YLC,115")
+		(lib_id "Transistor_FET:PSMN5R2-60YL")
 		(at 74.93 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -4212,7 +4212,7 @@
 		)
 	)
 	(symbol
-		(lib_id "william_fets:PSMN1R0-30YLC,115")
+		(lib_id "Transistor_FET:PSMN5R2-60YL")
 		(at 74.93 121.92 0)
 		(mirror y)
 		(unit 1)
@@ -4314,7 +4314,7 @@
 		)
 	)
 	(symbol
-		(lib_id "william_fets:PSMN1R0-30YLC,115")
+		(lib_id "Transistor_FET:PSMN5R2-60YL")
 		(at 74.93 133.35 0)
 		(mirror y)
 		(unit 1)

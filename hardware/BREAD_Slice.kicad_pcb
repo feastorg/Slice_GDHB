@@ -6450,7 +6450,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "kml-custom:CONN4_2606-1104&slash_010-000_WAG"
+	(footprint "KMLib_Connectors:2606-1104_010-000_WAGO"
 		(layer "F.Cu")
 		(uuid "9c8fcec2-0ba8-44bc-b63c-45d83b427d5e")
 		(at 177.125 82.77 90)
