@@ -20608,7 +20608,7 @@
 		(layers "F.Cu" "In2.Cu")
 		(uuid "fb6f2543-e834-49b8-88c0-df17f11c6df0")
 		(hatch edge 0.5)
-		(priority 4)
+		(priority 5)
 		(connect_pads yes
 			(clearance 0.5)
 		)
@@ -20691,7 +20691,7 @@
 		(layers "F.Cu" "In2.Cu")
 		(uuid "fc16270c-2e84-439b-90e5-e88babca6d0d")
 		(hatch edge 0.5)
-		(priority 4)
+		(priority 5)
 		(connect_pads yes
 			(clearance 0.5)
 		)
@@ -22401,7 +22401,7 @@
 		(layer "In2.Cu")
 		(uuid "60381b2b-6d13-4c7d-8659-edd7cab7e225")
 		(hatch edge 0.5)
-		(priority 4)
+		(priority 6)
 		(connect_pads yes
 			(clearance 0.5)
 		)
