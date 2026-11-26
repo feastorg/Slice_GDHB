@@ -4767,7 +4767,7 @@
 				)
 			)
 		)
-		(property "Value" "25V 220nF"
+		(property "Value" "50V 330nF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "cb58e136-cc0c-4e6a-b687-ded656419657")
@@ -4778,7 +4778,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM21BR71E224KA01%23"
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/C0805C334K5RACTU?lang=en"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4802,7 +4802,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR71E224KA01L"
+		(property "MPN" "C0805C334K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6067,7 +6067,7 @@
 				)
 			)
 		)
-		(property "Value" "25V 220nF"
+		(property "Value" "50V 330nF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "3767c003-21fe-4d7b-932d-a78c815c672a")
@@ -6078,7 +6078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM21BR71E224KA01%23"
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/C0805C334K5RACTU?lang=en"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6102,7 +6102,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR71E224KA01L"
+		(property "MPN" "C0805C334K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
