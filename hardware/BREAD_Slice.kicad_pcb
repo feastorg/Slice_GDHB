@@ -2765,8 +2765,8 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
 			(at 2.87 0.32 0)
-			(hide yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "631eae2c-b382-4c83-a369-6f149cb6df9e")
 			(effects
 				(font
@@ -4970,8 +4970,8 @@
 		(tags "capacitor")
 		(property "Reference" "JP1"
 			(at -3.1 -0.03 90)
-			(hide yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5684685e-5907-44a4-a569-7343963bb2ec")
 			(effects
 				(font
@@ -11840,8 +11840,8 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
 			(at 0 1.85 0)
-			(hide yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "191b37c0-5cd2-4384-8601-39eb55121611")
 			(effects
 				(font
