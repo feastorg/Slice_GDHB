@@ -4110,12 +4110,6 @@
 		(uuid "9fd8564d-ce71-4be4-9c66-8570e02be32c")
 	)
 	(junction
-		(at 163.83 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4ac4a1b-d5c1-4507-a66e-8d289c188169")
-	)
-	(junction
 		(at 26.67 77.47)
 		(diameter 0)
 		(color 194 0 194 1)
@@ -4427,26 +4421,6 @@
 			(type default)
 		)
 		(uuid "4f2ed5cd-5865-451f-9a5f-5507d1cd8859")
-	)
-	(wire
-		(pts
-			(xy 129.54 119.38) (xy 142.24 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fe340e7-3e2f-43e8-b430-dccb88162f2d")
-	)
-	(wire
-		(pts
-			(xy 163.83 77.47) (xy 175.26 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5222b228-3422-4ec1-8ee8-038aed9dc5d2")
 	)
 	(wire
 		(pts
@@ -5149,7 +5123,7 @@
 		)
 		(uuid "21ae9c3a-7138-444e-be38-56a4842ab594")
 	)
-	(label "ALI1"
+	(label "AHI1"
 		(at 106.68 91.44 0)
 		(effects
 			(font
@@ -5239,7 +5213,7 @@
 		)
 		(uuid "7d928d56-093a-4ca8-aed1-414b7e703b45")
 	)
-	(label "ALI1"
+	(label "BHI1"
 		(at 19.05 156.21 0)
 		(effects
 			(font
@@ -5269,7 +5243,7 @@
 		)
 		(uuid "a14ca280-fe79-408f-b37d-a6bf9efd3802")
 	)
-	(label "BHI1"
+	(label "AHI1"
 		(at 19.05 151.13 0)
 		(effects
 			(font
@@ -5981,7 +5955,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
+		(lib_id "power:GND")
 		(at 163.83 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -6002,7 +5976,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND"
 			(at 163.83 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6946,83 +6920,6 @@
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 142.24 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "56be4f94-2a88-49ec-8bda-3ada5a3aa656")
-		(property "Reference" "#PWR016"
-			(at 142.24 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDS"
-			(at 142.24 123.444 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 142.24 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfb0d828-d750-4731-8673-de330618d656")
-		)
-		(instances
-			(project "BREAD_Slice"
-				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8532,7 +8429,7 @@
 				(justify left)
 			)
 		)
-		(pin "ALI" input
+		(pin "AHI" input
 			(at 115.57 91.44 180)
 			(uuid "7da73a21-cba4-4353-981e-eee7a562df90")
 			(effects
@@ -8579,6 +8476,156 @@
 				)
 			)
 		)
+	)
+	(global_label "PGND"
+		(shape passive)
+		(at 175.26 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d64f5a83-4e71-497b-a310-948d4d0933b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 133.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5a5063-7f8a-472e-9304-c5e67747ab9b")
+	)
+	(wire
+		(pts
+			(xy 138.43 119.38) (xy 142.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0219367e-040b-4c7d-98c2-55f0b2e3e4ac")
+	)
+	(global_label "PGND"
+		(shape passive)
+		(at 142.24 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d40d63a2-b9cd-4ba3-ad26-fb987bc35e35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 135.89 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31396f7b-e201-4db3-9dd0-0b13d0c0852c")
+		(property "Reference" "NT2"
+			(at 135.89 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 138.43 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+			(at 135.89 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da6e7d70-6e37-4256-97a0-a648d63ad282")
+		)
+		(pin "2"
+			(uuid "ac0c1eed-3bd9-43c9-8f3c-0d0fff3ea4ca")
+		)
+		(instances
+			(project "BREAD_Slice"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687"
+					(reference "NT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "NT2: the only join of the power ground (PGND: FET sources, C5/C6, J2.1)\nto the logic ground, beside U2"
+		(exclude_from_sim no)
+		(at 116.84 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57a60ccf-b957-4e59-a01b-0a51d47366c9")
 	)
 	(sheet_instances
 		(path "/"
