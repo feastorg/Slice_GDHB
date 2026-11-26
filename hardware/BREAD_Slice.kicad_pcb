@@ -12932,7 +12932,7 @@
 			)
 		)
 	)
-	(gr_text "BREAD Slice\nGate-Driven\nH-Bridge\nSLC_GDHB\nR3 04-2025"
+	(gr_text "BREAD Slice\nGate-Driven\nH-Bridge\nSLC_GDHB\nR1 11-2026"
 		(at 121.925 108.4 270)
 		(layer "F.SilkS")
 		(uuid "5abfd3cf-8b82-409d-b0dd-ab0b45a460bd")
