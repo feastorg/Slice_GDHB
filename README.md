@@ -56,6 +56,28 @@ this revision (they list the old parts and counts) and are stale. Take the
 BOM from the schematic (KiCad: Tools > Generate BOM, or
 `kicad-cli sch export bom`); the MPN field carries the part numbers.
 
+## Design notes
+
+- **C9 (VREG) is 10 uF, not 20 x CBOOT after DC bias.** The A4957
+  datasheet (A4957-DS Rev. 2, "VREG Capacitor Selection", p. 10) sizes
+  the VREG capacitor to limit the VREG drop when a low-side turn-on and
+  a bootstrap recharge come together, and calls 20 x CBOOT "a
+  reasonable value". With CBOOT = 330 nF (C7, C8) that is 6.6 uF.
+  C9 (Murata GRM31CR71E106KA12L, 10 uF 25 V X7R 1206) keeps about 3.5 uF at 13 V on KEMET's
+  DC-bias curve for the comparable C1206C106K3RACTU (-65%), about
+  2.9 uF at VREG max (13.9 V) and -10% tolerance: 9 to 11 x CBOOT
+  (313 nF at 13 V).
+  The drop it has to hold is one low-side gate charge plus one
+  bootstrap recharge, 2 x 98 nC (CSD18512Q5B Qg max at 10 V): 56 mV
+  at 3.5 uF, 68 mV at 2.9 uF. VREG is 12.65 V minimum and its
+  undervoltage lockout trips at 5.85 V maximum (VREGUVOFF, p. 5), so
+  the margin is over 6.7 V. Charging both bootstrap capacitors from
+  0 V at once out of C9 alone (2 x 330 nF x 12 V) would pull VREG
+  down 2.7 V, still about 4 V above the lockout. The regulator's
+  average load at 20 kHz with one leg switching (2 x 98 nC x 20 kHz,
+  3.9 mA) is inside the 8 mA its 12.65 V minimum is specified at
+  (p. 4).
+
 ## Documentation
 
 Please refer to the [docs](/docs) for more info.
