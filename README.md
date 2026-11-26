@@ -77,6 +77,18 @@ BOM from the schematic (KiCad: Tools > Generate BOM, or
   average load at 20 kHz with one leg switching (2 x 98 nC x 20 kHz,
   3.9 mA) is inside the 8 mA its 12.65 V minimum is specified at
   (p. 4).
+- **NT2 (the only GND-PGND join) sits beside U2, not at the bulk
+  capacitor's negative.** The A4957 layout notes (p. 11, first bullet,
+  and Figure 2) return GND and the MOSFET sources separately to the
+  negative of the motor-supply filter capacitor. Here that would tie
+  GND at C5.2 or C6.2, 25-35 mm away through the VBB/PGND planes, and
+  carry the low-side gate returns through it: the GLA/GLB gate loops
+  would grow from about 24/28 mm2 to 177/529 mm2 (C5.2) or 997/537 mm2
+  (C6.2). Beside U2, NT2 lands on the PGND pour that holds cell A's
+  ceramic negatives (C16.2 is 6.2 mm away), which keeps those loops
+  small. The datasheet calls its layout notes "only recommendations"
+  and asks for each design to be tested at maximum current (p. 11):
+  check the GND-PGND difference and low-side VGS ringing at 10 A.
 
 ## Documentation
 
