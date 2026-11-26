@@ -57,7 +57,7 @@ hardware:
 electrical:
   input_voltage: "12V"
   logic_voltage: "5V"
-  max_current: null
+  max_current: "10A"
   protection: null
   isolation: null
 
