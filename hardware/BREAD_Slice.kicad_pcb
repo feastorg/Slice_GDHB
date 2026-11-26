@@ -574,7 +574,7 @@
 		(descr "Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf")
 		(tags "Arduino Nano")
 		(property "Reference" "A1"
-			(at -0.035 -2.465 0)
+			(at -2.19 0 0)
 			(layer "F.SilkS")
 			(uuid "f3f699ba-03a7-4845-bc73-0db09a7b7537")
 			(effects
@@ -2765,6 +2765,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
 			(at 2.87 0.32 0)
+			(hide yes)
 			(layer "F.SilkS")
 			(uuid "631eae2c-b382-4c83-a369-6f149cb6df9e")
 			(effects
@@ -4969,6 +4970,7 @@
 		(tags "capacitor")
 		(property "Reference" "JP1"
 			(at -3.1 -0.03 90)
+			(hide yes)
 			(layer "F.SilkS")
 			(uuid "5684685e-5907-44a4-a569-7343963bb2ec")
 			(effects
@@ -7103,14 +7105,14 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "Heat Sink"
-			(at 0 -6.7 0)
+			(at -1.9 -7.4 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "50147328-3328-4ae1-bf0a-13c6300dba43")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.1)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -11838,6 +11840,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
 			(at 0 1.85 0)
+			(hide yes)
 			(layer "B.SilkS")
 			(uuid "191b37c0-5cd2-4384-8601-39eb55121611")
 			(effects
@@ -12902,12 +12905,12 @@
 		)
 	)
 	(gr_text "ARDUINO NANO"
-		(at 145.1 121.56 90)
+		(at 144.8 121.56 90)
 		(layer "F.SilkS")
 		(uuid "d2c2573f-95ca-4b27-b2b0-4a4afcd9537c")
 		(effects
 			(font
-				(size 2 2)
+				(size 1.5 1.5)
 				(thickness 0.15)
 			)
 		)
