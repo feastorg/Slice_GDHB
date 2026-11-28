@@ -4,7 +4,7 @@ id: slice-gdhb
 name: Gate-Driven H-Bridge
 summary: Gate-driven discrete H-bridge motor driver using A4957 gate driver IC.
 category: actuation
-status: concept
+status: development
 hardware:
   hw_gen_current: 3
   interface: SI1
